@@ -5,6 +5,7 @@
 
 .header {
 	border-top: solid 8px #962D3E;
+	margin-bottom: 15px;
 }
 
 .li {
@@ -59,6 +60,15 @@
 
 .circle {
 	border-radius: 50%;
+}
+
+.main-img {
+	margin-top: -60px;
+}
+
+.logo {
+	z-index: 2;
+	width: 100px;
 }
 
 .flex {
