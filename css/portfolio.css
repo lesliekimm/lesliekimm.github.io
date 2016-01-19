@@ -169,6 +169,17 @@ a:hover {
 	margin-top:20px;
 }
 
+.about-text {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.logo-images {
+	max-width: 200px;
+}
+
 @media (max-width: 481px) {
      .main {
        font-size: 34px;
