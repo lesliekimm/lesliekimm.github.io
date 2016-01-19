@@ -6,33 +6,40 @@
 	</head>
 	
 	<body>
-		<header class="header">
-			<nav class="nav">
-				<ul>
-					<li class="li"><a href="./index.html">Home</a></li>
-					<li class="li"><a href="./portfolio.html">Portfolio</a></li>
-					<li class="li"><a href="./contact">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
+		<div class="main-wrapper">
+			<header class="header">
+				<nav class="nav">
+					<ul>
+						<li class="li"><a href="./index.html">Home</a></li>
+						<li class="li"><a href="./portfolio.html">Portfolio</a></li>
+						<li class="li"><a href="./contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-		<section>
 			<div class="flex column">
-				<img src="./logo.png" class="circle logo"/>
-				<img src="./KimLesliePhoto.jpg" class="circle main-img"/>
+				<section>
+					<div class="flex column">
+						<img src="./logo.png" class="circle logo"/>
+						<div class="img-wrapper">
+							<img src="./KimLesliePhoto.png" class="circle main-img"/>
+						</div>
+					</div>
+					<div class="titles flex column">
+						<h1 class="main title">Leslie Kim</h1>
+						<h2 class="sub">All that is gold does not glitter, not all those who wander are lost.</h2>
+					</div>
+				</section>
 			</div>
-			<div class="flex column">
-				<h1 class="main title">Leslie Kim</h1>
-				<p class="sub">All that is gold does not glitter, not all those who wander are lost.</br>
-							   Theme Colors: 962D3E, 343642, 979C9C, F2EBC7, 348899</p>
-			</div>
-		</section>
+		</div>
 
-		<footer>
-			<div class="flex column">
+		<footer class="footer">
+			<div class="flex">
+				<div class="line"></div>
 				<h3 class="footer-sub title">About</h3>
-				<a href= "./KimLeslieResume.pdf" download="Leslie Kim's Resume" class="button">Download My Resume!</a>
+				<div class="line"></div>
 			</div>
+			<a href= "./KimLeslieResume.pdf" download="Leslie Kim's Resume" class="button">Download My Resume!</a>
 		</footer>
 	</body>
 </html>
