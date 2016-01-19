@@ -164,6 +164,11 @@ a:hover {
 	font-family: 'Prociono', Georgia, serif;
 }
 
+.about {
+	max-width:500px;
+	margin-top:20px;
+}
+
 @media (max-width: 481px) {
      .main {
        font-size: 34px;
