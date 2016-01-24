@@ -26,6 +26,10 @@ a:hover {
 	cursor: pointer;
 }
 
+strong {
+	color: #962D3E;
+}
+
 .header {
 	border-top: solid 8px #962D3E;
 	margin-bottom: 15px;
@@ -36,11 +40,22 @@ a:hover {
 	margin-left: 10%;
 }
 
+.sub-nav {
+	margin-left:15%
+}
+
 .li {
 	display: inline;
 	list-style: none;
 	margin-right: 10px;
 	text-transform: uppercase;
+}
+
+.sub-li {
+	display: inline;
+	list-style:none;
+	margin-right: 10px;
+	text-transform: lowercase;;
 }
 
 .title {
@@ -142,6 +157,11 @@ a:hover {
 
 .portfolio-title {
 	margin-bottom: 12px;
+}
+
+.portfolio-icons {
+	margin-left: 10%;
+	margin-right: 10%
 }
 
 .gallery-container {
