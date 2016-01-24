@@ -140,6 +140,10 @@ a:hover {
 	font-size: 46pt;
 }
 
+.portfolio-title {
+	margin-bottom: 12px;
+}
+
 .gallery-container {
 	margin-left: 5%;
 	margin-right: 5%;
