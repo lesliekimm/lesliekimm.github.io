@@ -38,10 +38,23 @@ strong {
 .nav {
 	margin-top: 10px;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .sub-nav {
 	margin-left:15%
+}
+
+.left-nav {
+	float: left;
+}
+
+.right-nav {
+	float: right;
+}
+
+.clear {
+	clear: both;
 }
 
 .li {
