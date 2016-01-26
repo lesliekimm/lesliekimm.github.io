@@ -30,6 +30,14 @@ strong {
 	color: #962D3E;
 }
 
+th, td {
+	padding: 15px;
+}
+
+th, td, table {
+	border: 1px solid black;
+}
+
 .header {
 	border-top: solid 8px #962D3E;
 	margin-bottom: 15px;
